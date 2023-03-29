@@ -1,0 +1,17 @@
+pluginManagement {
+	repositories {
+		maven { url 'https://repo.spring.io/milestone' }
+		maven { url 'https://repo.spring.io/snapshot' }
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'microservices-new'
+include 'untitled'
+include 'ProductService'
+include 'OrderService'
+include 'InventoryService'
+include 'untitled'
+include 'DiscoveryServer'
+include 'DiscoveryServer'
+include 'api-gateway'
+
